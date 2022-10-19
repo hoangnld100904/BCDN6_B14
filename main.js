@@ -60,7 +60,7 @@ function tamgiac(){
     var b=document.getElementById('bai4-value2').value;
     var c=document.getElementById('bai4-value3').value;
     output=document.getElementById('bai4_output');
-    if (a==b==c){
+    if (a==b && b==c){
         output.innerHTML='Tam giác đều'
     }
     else if (a==b || b==c || a==c){
